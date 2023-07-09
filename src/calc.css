@@ -1,0 +1,12 @@
+#main{
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 15px 0 rgb(186, 186, 186);
+}
+.inpbtn{
+    box-shadow: 0 0 5px 0 rgb(186, 186, 186);
+    width: 100%;
+}
+.fa-chevron-down{
+    color: antiquewhite;
+}
