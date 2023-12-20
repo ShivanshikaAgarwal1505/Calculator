@@ -24,7 +24,7 @@ const Calc=()=>{
     const sub = () =>{
         setData((data) => evaluate(data))
     };
-    const expand = (e) =>{
+    const expand = () =>{
         
     };
 
@@ -110,11 +110,11 @@ const Calc=()=>{
                     <Button type="button" value="="  variant="light" className='inpbtn' onClick={sub}>=</Button>{' '}
                 </Col>
             </Row>
-            <Row>
+            {/* <Row>
                 <Col>
                     <Button type='button' variant='dark' className='inpbtn' onClick={expand}><i className="fa-solid fa-chevron-down fa-bounce fa-xl"></i></Button>
                 </Col>
-            </Row>
+            </Row> */}
         </Col>
         <Col xs={1} md={2} lg={3} xl={4}></Col>
       </Row>
